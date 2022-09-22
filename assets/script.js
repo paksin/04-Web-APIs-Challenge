@@ -196,6 +196,7 @@ viewHS.addEventListener("click",function(event){
     clearScore.innerHTML = ('<button id="deleteHS">Clear Highscore</button>');
     questionCount = 7;
     questionDisplay.textContent = "Please refresh the page to start quiz.";
+    startButton.remove();
     document.getElementById("deleteHS").addEventListener("click", function(event){
         localStorage.setItem("highscore", "[]");
         HSList.textContent = [];
