@@ -1,0 +1,84 @@
+.scoreboard{
+    display: flex;
+    height: 50px;
+}
+
+.gameDiv ul{
+    list-style-type: none;
+}
+
+.highscoreDiv{
+    width: 50%;
+    justify-content: center;
+    align-self: center;
+}
+
+.timerDiv{
+    width: 50%;
+    height: 50px;
+    text-align: right;
+    justify-content: center;
+}
+
+.gameDiv{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.questionDiv{
+    width: 60%;
+    align-self: center;
+    text-align: center;
+}
+
+.answersDiv{
+    width: 100%;
+    align-self: center;
+}
+
+.answersDiv button{
+    margin: 5px 200px;
+}
+
+.resultDiv{
+    width: 50%;
+    align-self: center;
+    text-align: center;
+
+}
+
+form{
+    text-align: center;
+}
+
+#submitBut{
+    margin: 5px;
+}
+
+.startDiv{
+    width: 100%;
+    margin-top: 100px;
+    align-self: center;
+    text-align: center;
+}
+
+.highscoreBoard{
+    width: 100%;
+    text-align: center;
+
+}
+
+.highscoreList{
+    padding: 0;
+}
+
+.highscoreList li{
+    margin-top: 10px;
+}
+
+.clearScoreDiv{
+    text-align: center;
+}
